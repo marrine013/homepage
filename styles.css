@@ -48,6 +48,11 @@ body {
   margin-bottom: 15px;
 }
 
+.add-txt {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
 @media screen and (max-width: 576px) {
   .main-info,
   .contact_info_container {
@@ -87,7 +92,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-info__block--center {
@@ -156,6 +161,10 @@ body {
   text-align: justify;
 }
 
+.intro_text p {
+  margin-bottom: 10px;
+}
+
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
@@ -168,7 +177,7 @@ body {
 }
 
 .experiences {
-  flex: 1 1 60%;
+  flex: 1 1 75%;
   margin-right: 50px;
 }
 
@@ -217,7 +226,7 @@ body {
 }
 
 .additional-info {
-  flex: 1 1 40%;
+  flex: 1 1 25%;
 }
 
 .additional-info__education {
@@ -245,6 +254,10 @@ body {
 
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
+}
+
+.additional-info__education-university {
+  margin-bottom: 25px;
 }
 
 .additional-info__languages {
