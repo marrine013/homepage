@@ -156,6 +156,10 @@ body {
   text-align: justify;
 }
 
+.intro_text p {
+  margin-bottom: 10px;
+}
+
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
